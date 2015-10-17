@@ -1,7 +1,7 @@
-var React = require('react/addons');
+var TestUtils = require('react-addons-test-utils');
 
 function shallowRender(element) {
-  var shallowRenderer = React.addons.TestUtils.createRenderer();
+  var shallowRenderer = TestUtils.createRenderer();
   shallowRenderer.render(element);
   return shallowRenderer.getRenderOutput();
 }

@@ -9,7 +9,7 @@
   "author": "James Friend <james@jsdf.co> (http://jsdf.co/)",
   "license": "MIT",
   "dependencies": {
-    "react": "^0.13.3"
+    "react-addons-test-utils": "^0.14.0"
   },
   "devDependencies": {
     "tap": "^1.4.1"
